@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blood Donor Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <img class="icon" src="./blood_655983.png" alt="">
+        <ul>
+              <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="donors.html">Blood Donor List</a></li>
+          <li><a href="register.html" class="active">Registration</a></li>
+        </ul>
+        <button class="button">DONATE NOW</button>
+      </nav>
+
+  <div class="container">
+    <h2>Register as a Donor</h2>
+    <form action="submit_registration.html" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="blood-group">Blood Group:</label>
+      <select id="blood-group" name="blood-group" required>
+        <option value="A+">A+</option>
+        <option value="A-">A-</option>
+        <option value="B+">B+</option>
+        <option value="B-">B-</option>
+        <option value="O+">O+</option>
+        <option value="O-">O-</option>
+        <option value="AB+">AB+</option>
+        <option value="AB-">AB-</option>
+      </select><br><br>
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" required><br><br>
+
+      <label for="location">Location:</label>
+      <input type="text" id="location" name="location" required><br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+   <!-- footer section started -->
+
+   <footer>
+    <div class="footer-content">
+        <h3 class="footer-title"><img class="logo-footer" src="./blood_655983.png" alt=""><span
+                class="ruch-footer">LIVE</span> <span class="travel-footer">LINE</span></h3>
+        <p class="footer-description">
+            "LifeLine is a dedicated platform that connects blood donors with those in urgent need. With a mission
+            to save lives, LifeLine allows individuals to register as donors, find available blood donors, and learn
+            about the life-saving impact of blood donations. Join our community and make a difference by giving the
+            gift of life."
+        </p>
+        <div class="social-link">
+            <img class="social-img" src="Images/twitter.png" alt="">
+            <img class="social-img" src="Images/facebook.png" alt="">
+            <img class="social-img" src="Images/instagram.png" alt="">
+            <img class="social-img" src="Images/github.png" alt="">
+        </div>
+        <hr class="footer-line">
+        <p class="copyright">
+            2024, All Rights Reserved by LIVE LINE.
+            <br>Developed by Muaaz Bin Zahid.
+        </p>
+    </div>
+</footer>
+
+<!-- footer section ended -->
+</body>
+</html>
