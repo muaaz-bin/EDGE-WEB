@@ -9,12 +9,15 @@
      padding: 0;
      box-sizing: border-box;
      font-family: 'Mulish', sans-serif;
+     box-sizing: border-box;
  }
 
  body {
      font-family: Arial, sans-serif;
      line-height: 1.6;
      background-color: #ffffff;
+     height: 100%;
+     width: 100%;
  }
 
  header {
@@ -44,7 +47,7 @@
      list-style: none;
      text-align: center;
      margin-top: 10px;
-     margin-left: -300px;
+     margin-left: -240px;
  }
 
  nav ul li {
@@ -79,7 +82,7 @@
      display: inline-block;
      font-size: 16px;
      margin: 4px 2px;
-     margin-left: 200px;
+     margin-left: 220px;
      transition-duration: 0.4s;
      cursor: pointer;
      background-color: white;
@@ -99,6 +102,63 @@
 
  /* banner related styles start */
 
+
+
+ .navpanel {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .heroselect {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100vw;
+ }
+
+ .herodes {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100vw;
+ }
+
+ .heronews {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100vw;
+ }
+
+ .herofooter {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100vw;
+ }
+
+ .heroabout {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100vw;
+ }
+
+ .heromivi {
+     justify-content: center;
+     align-items: center;
+     width: 100vw;
+ }
+
+ .hero {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     width: 100vw;
+ }
+
  .banner {
      max-width: 1170px;
      height: 500px;
@@ -107,14 +167,14 @@
      background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(./medium.jpg);
      background-repeat: no-repeat;
      background-size: cover;
-     margin-left: 135px;
-     margin-right: 135px;
+     /* margin-left: 170px;
+     margin-right: 135px; */
      margin-top: 20px;
      margin-bottom: 50px;
      justify-content: center;
      align-items: center;
      display: flex;
-     flex-direction: column;
+
  }
 
  .banner-title {
@@ -189,8 +249,8 @@
      gap: 24px;
      border-radius: 8px;
      background: rgba(253, 1, 1, 0.3);
-     margin-left: 340px;
-     margin-right: 135px;
+     /* margin-left: 340px;
+     margin-right: 135px; */
      margin-bottom: 50px;
 
  }
@@ -262,8 +322,6 @@
 
  .newsletter {
      display: flex;
-     margin-left: 305px;
-     margin-right: 135px;
      margin-top: 100px;
      gap: 35px;
      margin-bottom: 100px;
@@ -651,6 +709,7 @@
      background: rgba(19, 19, 24, 0.05);
      align-items: center;
      justify-content: center;
+
  }
 
  .footer-title {
